@@ -17,7 +17,7 @@ code in this sample, all you need to do is ask a user to pick a person from your
 pick chat, audio, or video, and with a few lines of code, your app launches Skype in a new full screen activity. The call is already queued
 with the phone number or id. 
 
-##The code
+## The code
 Just add the following code from the sample into your app.
 
 
@@ -40,25 +40,25 @@ Just add the following code from the sample into your app.
         } );
  ```
 
-##The sample
+## The sample
 
 The sample has only a main activity with a text box and button. So simple.
 
 ![the main activity](images/SkypeCall.png)
 
-##Device requirement
+## Device requirement
 To run the Skype Android Mobile SDK samples project, your device must meet the following requirement:
 * Android API level 17 or newer
 * Skype for Business - Android App installed. Get [Skype for Business for Android](https://play.google.com/store/apps/details?id=com.microsoft.office.lync15&hl=en) from **Google Play**
 
-###Prerequisites
+### Prerequisites
 To use the Skype Android Mobile SDK samples project, you need the following:
 * The latest version of [Android Studio](http://developer.android.com/sdk/index.html).
 * The [Gradle](http://www.gradle.org) build automation system version 2.2.1 or later.
 * A Skype for Business or Skype for Business Online account. 
 * [Java Development Kit (JDK) 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
-##Configure the project
+## Configure the project
 
 1. Download or clone the [Skype-Android-Mobile-SDK-Samples](https://github.com/OfficeDev/Skype-for-Business-Android-Uri-Sample).
 2. Start Android Studio.
@@ -66,7 +66,7 @@ To use the Skype Android Mobile SDK samples project, you need the following:
 4. Select the **settings.gradle** file in the **Skype-for-Business-Android-Uri-Sample** folder, and then click **OK**.
 5. Respond to the dialog box ("Gradle Sync: Gradle settings for this project are not configured yet. Would you like the project to use the Gradle wrapper? ") by clicking the **OK** button to use the Gradle wrapper. 
 
-##Run the project
+## Run the project
 After you've built the project you can run it on a device. Video calling is not currently supported on Android emulators.
 
 1. Run the project.
